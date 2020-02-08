@@ -4,7 +4,7 @@
         <Authors>邱尘</Authors>
         <Description>A http proxy middleware for asp.net core app</Description>
         <PackageTags>Dotnetcore,HttpProxy,Proxy</PackageTags>
-        <PackageLicenseUrl>https://github.com/NeilQ/Netcool.Api/blob/master/LICENSE</PackageLicenseUrl>
+        <PackageLicenseUrl>https://github.com/NeilQ/Netcool.HttpProxy/blob/master/LICENSE</PackageLicenseUrl>
         <PackageProjectUrl>https://github.com/NeilQ/Netcool.HttpProxy</PackageProjectUrl>
         <RepositoryUrl>https://github.com/NeilQ/Netcool.HttpProxy</RepositoryUrl>
 	</PropertyGroup>

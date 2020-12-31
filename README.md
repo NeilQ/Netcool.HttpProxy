@@ -1,12 +1,12 @@
 # Netcool.HttpProxy
 
-A http proxy for asp.net core 3.1 app.
+A http proxy for asp.net core app base on netstandard2.1.
 
 Most of the codes comes from [aspnet/AspLabs](https://github.com/aspnet/AspLabs)
 
 ## Usage
 
-```csharp
+```c#
 public void ConfigureServices(IServiceCollection services)
 {
     services.AddProxy(options =>
@@ -26,7 +26,7 @@ public void ConfigureServices(IServiceCollection services)
 
 public void Configure(IApplicationBuilder app)
 {
-    app.Map("/api", app => { app.RunProxy(new Uri("http://api.domain.com"); });
+    app.Map("/api", builder => { builder.RunProxy(new Uri("http://api.domain.com")); });
 }
 
 ```

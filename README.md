@@ -1,4 +1,8 @@
-# Netcool.HttpProxy
+# Netcool.HttpProxy [Archived]
+
+**This GitHub project has been archived**. Ongoing development on this prototype can be found in https://github.com/NeilQ/Netcool.Api/tree/master/src/extensions/Netcool.HttpProxy.
+
+
 
 A http proxy for asp.net core app base on netstandard2.1.
 
